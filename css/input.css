@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/utilities";
+
+@import "tailwindcss/components";
+
+@font-face {
+    font-family: Inter;
+    src: url('/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}

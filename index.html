@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./css/output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="min-h-screen flex justify-center items-center font-Inter">
+    <div class="flex items-center flex-col max-w-6xl  py-8 sm:py-0">
+      <div class="flex justify-between w-full pb-8 items-center text-Darkgrayishblue sm:px-0 px-8">
+        <img src="assets/images/logo.svg" alt="">
+        <button class="menu-btn sm:hidden">
+          <img src="assets/images/icon-menu.svg" alt="">
+        </button>
+        <section class="menu-section absolute top-0 w-2/3 right-0 flex flex-col hidden bg-Offwhite origin-right animate-open-menu">
+            <button class="close-btn self-end pt-8 pr-8">
+              <img src="assets/images/icon-menu-close.svg" alt="">
+            </button>
+            <nav class="flex flex-col min-h-screen w-2/3 pl-8 pt-24 text-black gap-8">
+              <a class="" href="#">Home</a>
+              <a class="" href="">New</a>
+              <a class="" href="">Popular</a>
+              <a class="" href="">Trending</a>
+              <a class="" href="">Categories</a>
+            </nav>
+        </section>
+        
+        <div class="sm:flex hidden gap-12">
+          <a class="hover:text-Softred" href="#">Home</a>
+          <a class="hover:text-Softred" href="">New</a>
+          <a class="hover:text-Softred" href="">Popular</a>
+          <a class="hover:text-Softred" href="">Trending</a>
+          <a class="hover:text-Softred" href="">Categories</a>
+        </div>
+      </div>
+      <div class="flex flex-col sm:flex-row px-8 sm:px-0 pt-8 mb-16">
+        <div class="sm:pr-8 sm:pb-0 pb-8">
+          <img src="/assets/images/image-web-3-desktop.jpg" alt="" class="w-full hidden sm:block">
+          <img src="assets/images/image-web-3-mobile.jpg" alt="" class="sm:hidden block w-full">
+          <div class="flex flex-col sm:flex-row pt-8">
+            <div class=" min-w-[24rem] sm:pb-0 pb-8">
+              <span class="text-6xl font-bold text-Verydarkblue">
+                The Bright Future of Web 3.0?
+              </span>
+            </div>
+            
+            <div class="flex flex-col items-start justify-between sm:pl-8 pr-4">
+              <span class="text-left text-Darkgrayishblue text-sm sm:pb-0 pb-8">
+                We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                But is it really fulfilling its promise?
+              </span>
+              <button class="bg-Softred text-Offwhite px-8 py-3 font-bold uppercase tracking-widest hover:bg-Verydarkblue">
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="min-w-[22rem] flex flex-col bg-Verydarkblue pt-8 px-6 pb-0 text-Offwhite font-light">
+          <span class="text-5xl font-bold text-Softorange">
+            New 
+          </span>
+          
+          <span class="flex flex-col py-8 text-sm text-Grayishblue">
+            <span class="font-bold text-xl pb-2 hover:text-Softorange">
+              Hydrogen VS Electric Cars
+            </span>
+            
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </span>
+          <hr/>
+          <span class="flex flex-col py-8 text-sm text-Grayishblue">
+            <span class="font-bold text-xl pb-2 hover:text-Softorange">
+              The Downsides of AI Artistry
+            </span>
+            
+            What are the possible adverse effects of on-demand AI image generation?
+          </span>
+          <hr/>
+          <span class="flex flex-col py-8 text-sm text-Grayishblue ">
+            <span class="font-bold text-xl pb-2 hover:text-Softorange">
+              Is VC Funding Drying Up?
+            </span>
+            
+            Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          </span>
+        </div>
+      </div>
+      <div class="flex flex-col px-8 sm:px-0 gap-8 sm:gap-0 sm:flex-row">
+        <div class="flex flex-row pr-8">
+          <img src="assets/images/image-retro-pcs.jpg" alt="" class="w-24 mr-4">
+          <span class="flex flex-col justify-between">
+            <span class="text-Grayishblue text-3xl font-bold">01</span>
+            <span class="font-bold text-lg text-Verydarkblue hover:text-Softred">
+              Reviving Retro PCs
+            </span>
+            <span>
+              What happens when old PCs are given modern upgrades?
+            </span>
+            
+          </span>
+        </div>
+        
+        <div class="flex flex-row pr-8">
+          <img src="assets/images/image-top-laptops.jpg" alt="" class="w-24 mr-4">
+          <span class="flex flex-col justify-between">
+            <span class="text-Grayishblue text-3xl font-bold">02</span>
+            <span class="font-bold text-lg text-Verydarkblue hover:text-Softred">Top 10 Laptops of 2022</span>
+            <span>Our best picks for various needs and budgets.</span>
+          </span>
+        </div>
+        
+        <div class="flex flex-row pr-8">
+          <img src="assets/images/image-gaming-growth.jpg" alt="" class="w-24 mr-4">
+          <span class="flex flex-col justify-between">
+            <span class="text-Grayishblue text-3xl font-bold">03</span>
+            <span class="font-bold text-lg text-Verydarkblue hover:text-Softred">The Growth of Gaming</span>
+            <span>How the pandemic has sparked fresh opportunities.</span>
+          </span>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+  </main>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
